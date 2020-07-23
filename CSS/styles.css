@@ -10,6 +10,8 @@ font-family: "Roboto", sans-serif; */
 
 .body {
   font-family: Roboto;
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
 }
 
 .logo {
@@ -30,8 +32,19 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-white-color);
 }
 
-.list {
+/* списки */
+.site-nav-list,
+.list-title,
+.feature-list,
+.social-list,
+.list,
+.list-customers,
+.list-companies {
   list-style: none;
+}
+/* Навигация */
+.site-nav-list {
+  display: flex;
 }
 
 .menu-link {
