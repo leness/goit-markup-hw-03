@@ -47,6 +47,18 @@ font-family: "Roboto", sans-serif; */
   display: flex;
 }
 
+.site-nav-list .menu-item:last-child {
+  margin-right: 0;
+}
+
+.site-nav-list li {
+  background-color: red;
+}
+
+.site-nav-list .menu-item + .menu-item {
+  margin-left: 50px;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
