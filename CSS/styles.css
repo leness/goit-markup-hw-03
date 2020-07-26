@@ -14,7 +14,29 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-text-color);
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+}
+
+/* .container main-nav {
+  display: flex;
+} */
+
+/* .box {
+  outline: 2px solid tomato;
+} */
+
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: salmon;
+  margin-right: 85px;
+
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -45,15 +67,17 @@ font-family: "Roboto", sans-serif; */
 /* Навигация */
 .site-nav-list {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .site-nav-list .menu-item:last-child {
   margin-right: 0;
 }
 
-/* .site-nav-list li {
+.site-nav-list li {
   background-color: red;
-} */
+}
 
 .site-nav-list .menu-item + .menu-item {
   margin-left: 50px;
@@ -79,7 +103,28 @@ font-family: "Roboto", sans-serif; */
   color: var(--accent-color);
 }
 
+/* .box {
+  box-sizing: border-box;
+} */
+
+/* .container main-nav .navigation .site-nav-list .contacts {
+  display: flex;
+} */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 .contacts-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+
+  background-color: rebeccapurple;
+
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -87,6 +132,15 @@ font-family: "Roboto", sans-serif; */
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
+}
+
+.phone {
+  margin-right: 0px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*.btn {
@@ -109,6 +163,10 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-white-color);
   background: var(--accent-color);
   border-radius: 4px;
+}
+
+.list-title {
+  display: flex;
 }
 
 .tehnokrjak {
@@ -232,4 +290,12 @@ font-family: "Roboto", sans-serif; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-white-color);
+}
+
+.list {
+  display: flex;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 10px;
 }
