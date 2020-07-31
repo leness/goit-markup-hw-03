@@ -279,8 +279,8 @@ font-family: "Roboto", sans-serif; */
 }
 
 .section-title {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 4px;
 
   font-weight: bold;
   font-size: 18px;
@@ -494,23 +494,14 @@ font-family: "Roboto", sans-serif; */
   margin-bottom: 30px;
 }
 
+.golden {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .projects {
   outline: 2px solid red;
 
-  /* padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
 
-    background-color: yellow;
-  } */
-
-  /* .projects-link {
-    padding-bottom: 93px;
-  } */
-
-  /* margin-right: 30px;
-  margin-bottom: 30px; */
-
-  /* width: calc((100% - 30px * 2) / 3); */
-}
