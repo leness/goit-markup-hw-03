@@ -103,10 +103,6 @@ font-family: "Roboto", sans-serif; */
   color: var(--accent-color);
 }
 
-/* .menu-link .current {
-  --accent-color: #2196f3;
-} */
-
 .navigation {
   display: flex;
   align-items: center;
