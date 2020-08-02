@@ -349,6 +349,8 @@ font-family: "Roboto", sans-serif; */
 .profession-list {
   padding-top: 30px;
   padding-bottom: 24px;
+
+  background-color: var(--primary-white-color);
 }
 
 .profession {
