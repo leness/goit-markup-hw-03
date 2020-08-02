@@ -353,6 +353,10 @@ font-family: "Roboto", sans-serif; */
   background-color: var(--primary-white-color);
 }
 
+.foto {
+  display: block;
+}
+
 .profession {
   margin-top: 10px;
 
