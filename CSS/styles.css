@@ -179,13 +179,18 @@ font-family: "Roboto", sans-serif; */
   margin-bottom: 0;
 }
 
+.title-caption {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list-title {
   display: flex;
 
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 0px;
 }
 
@@ -194,10 +199,10 @@ font-family: "Roboto", sans-serif; */
 }
 
 .text-title-link {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 
   font-weight: bold;
   font-size: 36px;
@@ -210,6 +215,7 @@ font-family: "Roboto", sans-serif; */
 
 .people {
   background: #f5f4fa;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -421,6 +427,7 @@ font-family: "Roboto", sans-serif; */
 }
 
 .clients {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
