@@ -96,6 +96,10 @@ font-family: "Roboto", sans-serif; */
   text-decoration: none;
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .menu-link:hover,
 .menu-link:focus,
 .contacts-link:hover,
