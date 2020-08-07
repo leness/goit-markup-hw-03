@@ -222,6 +222,11 @@ font-family: "Roboto", sans-serif; */
 
 .people {
   background: #f5f4fa;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
+}
+
+.human {
   padding-top: 94px;
   padding-bottom: 94px;
 }
